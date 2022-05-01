@@ -1,29 +1,30 @@
-import { CalendarIcon } from "@chakra-ui/icons"
+import { AiOutlineHome, AiOutlineBook, AiOutlineCalendar } from "react-icons/ai"
+import { IoMdWifi } from "react-icons/io"
 
 export const menuConfig = [
     {
         title: 'Accueil',
         link: '',
-        icon: <CalendarIcon/>
+        icon: <AiOutlineHome size="25"/>
     },
     {
         title: 'Semestre 1',
         link: '',
-        icon: <CalendarIcon/>
+        icon: <AiOutlineBook size="25"/>
     },
     {
         title: 'Semestre 2',
         link: '',
-        icon: <CalendarIcon/>
+        icon: <AiOutlineBook size="25"/>
     },
     {
         title: 'Diffusion',
         link: '',
-        icon: <CalendarIcon/>
+        icon: <IoMdWifi size="25"/>
     },
     {
         title: 'Emploi de temps',
         link: '',
-        icon: <CalendarIcon/>
+        icon: <AiOutlineCalendar size="25"/>
     },
 ]
